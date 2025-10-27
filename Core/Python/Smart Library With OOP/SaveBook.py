@@ -2,10 +2,10 @@ from Book import Book
 
 class SaveBook(Book):
 
-    def __init__(self, title="", author="", ISBN="", category="", stock=0):
+    def __init__(self, title: str="", author: str="", ISBN: str="", category: str="", stock: int=0) -> None:
         super().__init__(title, author, ISBN, category, stock)
 
-    def save_book_info(self):
+    def save_book_info(self) -> None:
 
         self.books = []
         how_many = 0
@@ -24,9 +24,10 @@ class SaveBook(Book):
             book = SaveBook(self.title, self.author, self.__ISBN, self.category, self.__stock)
             self.books.append(book)
 
-    def display_saved_books(self):
+    def display_saved_books(self) -> None:
         for i in self.books:
             print("Saved Book:", i) # __str__ method will be called here
+
 
         print("Books Saved Successfully.")
 

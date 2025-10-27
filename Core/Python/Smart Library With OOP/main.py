@@ -21,6 +21,9 @@ if __name__ == "__main__":
 
     print("Welcome to Smart Library System.")
 
-    save = SaveBook()
-    save.save_book_info()
-    save.display_saved_books()
+    save_book: SaveBook = SaveBook()
+    #save_book = SaveBook()
+
+    save_book.save_book_info()
+    save_book.display_saved_books()
+    print(repr(save_book))
