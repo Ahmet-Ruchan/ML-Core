@@ -9,7 +9,8 @@
 [![GitHub forks](https://img.shields.io/github/forks/Ahmet-Ruchan/ML-Core.svg?style=social&label=Fork)](https://github.com/Ahmet-Ruchan/ML-Core/network/members)
 [![GitHub watchers](https://img.shields.io/github/watchers/Ahmet-Ruchan/ML-Core.svg?style=social&label=Watch)](https://github.com/Ahmet-Ruchan/ML-Core/watchers)
 
-![DevMultiGroupBanner](/awesome.gif)
+![Açıklama](cs.png)
+
 
 ---
 
